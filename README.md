@@ -24,8 +24,15 @@ Create
 ```
 
 ```md
-![The Lord of The Rings cape](/img/tlotr.jpg?float=right&width=50 "title")
+![The Lord of The Rings cape](/img/tlotr.jpg?mdFloat=right&mdWidth=50 "title")
 ```
 
+- `mdFloat`
+- `mdClass`
+- `mdWidth`
+  - `mdWidth=50` = 50%
+  - `mdWidth=200px` = 200px 
+- `mdAlign`
+- `mdHeight`
 
 ## Superset
