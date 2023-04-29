@@ -11,4 +11,4 @@ Each type of proposal is divided in two use cases:
 - **for document:** the original reason to markdown exist, to be a web markup language to create text documents
 - **for web pages:** Markdown is an HTML superset, the idea is to make it render more complex pages, no only documents, then these proposal bring new common components for content of web pages.
 
-## 1.1
+## [Patch 1.1]
