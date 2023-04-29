@@ -48,6 +48,8 @@ Create
 - `mdType=button`
 - `mdAlign`
 
+---
+
     teste de bloco de código
     import { a } from 'jquery'
     <span>
