@@ -13,9 +13,9 @@ Each type of proposal is divided in two use cases:
 
 ## Patch
 
-Put markdown information at hidden places.
+### Put markdown information at hidden places.
 
-### Image
+#### Image
 
 Create
 
@@ -34,5 +34,22 @@ Create
   - `mdWidth=200px` = 200px 
 - `mdAlign`
 - `mdHeight`
+
+#### Link
+
+```md
+[content](href?HIDDEN_INFORMATION "title")
+```
+
+```md
+[The Lord of The Rings cape](#tlotr?mdType=button "title")
+```
+
+- `mdType=button`
+- `mdAlign`
+
+    teste de bloco de código
+    import { a } from 'jquery'
+    <span>
 
 ## Superset
