@@ -30,10 +30,11 @@ Create
 - `mdFloat`
 - `mdClass`
 - `mdWidth`
-  - `mdWidth=50` = 50%
-  - `mdWidth=200px` = 200px 
+  - `mdWidth=50`: 50%
+  - `mdWidth=200px`: 200px 
 - `mdAlign`
 - `mdHeight`
+- `mdPreview`: Put the image inside a box like a sample, if it's placed before a code block it will create a composite component with sample and code.
 
 #### Link
 
@@ -50,9 +51,11 @@ Create
 
 ### Code block
 
-```html asdf
+```html preview
 <span class="123">asd</span>
 ```
+
+- `preview`: render the HTML above or below the code block
 
 ## Superset
 
