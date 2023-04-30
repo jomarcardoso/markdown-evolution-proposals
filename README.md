@@ -48,10 +48,51 @@ Create
 - `mdType=button`
 - `mdAlign`
 
----
+### Code block
 
-    teste de bloco de código
-    import { a } from 'jquery'
-    <span>
+```html asdf
+<span class="123">asd</span>
+```
 
 ## Superset
+
+## Other
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch develop
+    commit
+    commit
+    commit
+    checkout main
+    commit
+    commit
+```
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+$\sqrt{3x-1}+(1+x)^2$
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+**Here is some math!**
+
+```math
+\sqrt{3}
+```
