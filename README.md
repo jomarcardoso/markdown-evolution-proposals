@@ -3,6 +3,10 @@
 This document will approach three types of proposals to evolve the [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax).
 
 - **patch:** these proposals are compatible with the current markdown and their transpilers.
+  - Put markdown information at hidden places
+  - Hide information in HTML tags
+  - Create variants of components
+  - Combination of markups
 - **superset:** the proposals here are an evolution that accept the current syntax and new features.
 - **breaking change:** a new version that override the old markdown syntax
 
@@ -12,6 +16,8 @@ Each type of proposal is divided in two use cases:
 - **for web pages:** Markdown is an HTML superset, the idea is to make it render more complex pages, no only documents, then these proposal bring new common components for content of web pages.
 
 ## Patch
+
+The information can be placed by one of those techinices.
 
 ### Put markdown information at hidden places.
 
@@ -49,13 +55,34 @@ Create
 - `mdType=button`
 - `mdAlign`
 
-### Code block
+#### Code block
 
+```
 ```html preview
 <span class="123">asd</span>
 ```
 
 - `preview`: render the HTML above or below the code block
+
+### Hide information in HTML tags
+
+#### Heading
+
+```
+##### <wbr mdAlign="center"> Title aligned at center 
+```
+
+##### <wbr mdAlign="center"> Title aligned at center 
+
+---
+
+### Create variants of components
+
+#### Code block
+
+```
+```VARIANT
+``
 
 ## Superset
 
