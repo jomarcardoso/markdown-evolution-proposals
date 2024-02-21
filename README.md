@@ -2,7 +2,7 @@
 
 This document will approach three types of proposals to evolve the [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax).
 
-- **patch:** these proposals are compatible with the current markdown and their transpilers.
+- **patch:** these proposals are compatible with the current markdown and their transpilers, but need the transpiler implementation to works.
   - Put markdown information at hidden places
   - Hide information in HTML tags
   - Create variants of components
