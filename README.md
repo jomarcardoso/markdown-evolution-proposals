@@ -17,7 +17,7 @@ Each type of proposal is divided in two use cases:
 
 ## Patch
 
-The information can be placed by one of those techinices.
+The patch improvement is a way to put information that will not break or look weird. The information can be placed by one of those techinices.
 
 ### Put markdown information at hidden places.
 
