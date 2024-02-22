@@ -55,15 +55,6 @@ Create
 - `mdType=button`
 - `mdAlign`
 
-#### Code block
-
-```
-```html preview
-<span class="123">asd</span>
-```
-
-- `preview`: render the HTML above or below the code block
-
 ### Hide information in HTML tags
 
 #### Heading
@@ -80,9 +71,19 @@ Create
 
 #### Code block
 
+```FLOW
+step 1 -> step 2 -> step 3
 ```
-```VARIANT
-``
+
+```TREE
+Abraham
+  Ismael
+  Izac
+    Jacob
+    Ezau
+```
+
+### Combination of markups
 
 ## Superset
 
